@@ -1,0 +1,24 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}IARI{% endblock %}
+
+{% block navbar %}
+
+<div class="navbar navbar-default" role="navigation">
+	<a class="navbar-brand" href="/">IARI</a>
+	<ul class="nav nav-pills">
+		<a href="/about" class="btn btn-default navbar-btn" role="button">About</a>
+	</ul>
+</div>
+<div class="jumbotron">
+	<h1>IARI</h1>
+    <p>Análises Internacionais com Inteligência Artificial</p>
+</div>
+
+{% endblock %}
+
+{% block content %}
+
+{% block page_content %}{% endblock %}
+
+{% endblock %}

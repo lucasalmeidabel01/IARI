@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block title %}IARI{% endblock %}
+
+
+{% block page_content %}
+<html>	
+	<head>
+		<title>IARI-website</title>
+      	<meta charset='utf-8'>
+      	<meta name="viewport" content="width=device-width", initial-scale="1">
+      	<link rel="stylesheet" href="css/style.css">
+      	<link rel="stylesheet" href="{{  url_for('static',filename='css/style.css') }}">
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="">
+				<p>Lucas Almeida. Internacionalista, Mestrando em Ciência Política pela Universidade
+					Federal do Pará (UFPA). Cientista de Dados em treinamento, analítico por costume,
+					curioso por natureza, acredita que as relações humanas irão ser amplamente modificadas
+					pela Inteligência Artificial. Isso inclui também as Relações Internacionais.</p>
+			</div>
+		</div>
+	</body>
+</html>
+{% endblock %}
